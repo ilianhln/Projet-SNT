@@ -2,11 +2,10 @@ body {
     background-image: url("../Src/Images/background_hacker.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color:white;
 } 
 
-* {
-    color:white;
-}
+
 h1 {
     text-align: center;
 }
@@ -25,4 +24,37 @@ h1 {
 p {
     font-size: larger;
     text-align: justify;
+}
+
+.presentation {
+    width: 40%;
+    border-style: double;
+    border-color: grey;
+    border-width: 5px;
+    border-radius: 15px;
+
+    margin: 10px;
+    padding: 10px;
+
+    background-color: white;
+    color: black;
+
+    position: relative;
+}
+
+#img_presentation {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 85%;
+}
+
+ul {
+    color: black;
+}
+
+.redirections {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
