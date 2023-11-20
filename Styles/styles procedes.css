@@ -1,7 +1,5 @@
 body {
-    background-image: url("../Src/Images/background_hacker.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
 
     color: white;
 }
@@ -36,7 +34,7 @@ body {
 
     margin: 10px;
     padding: 10px;
-    width: 40%;
+    width: 60%;
 }
 
 .blancSurNoir {
@@ -49,5 +47,38 @@ body {
 
     margin: 10px;
     padding: 10px;
+    width: 60%;
+}
+
+
+#phishing {
+    font-size: small;
+    position: relative;
+}
+
+#malwares {
+    font-size: small;
+    position: relative;
+}
+
+img {
     width: 40%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+iframe {
+    width: 40%;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.noirSurBlanc ol, .blancSurNoir ol {
+    width: 50%;
+}
+
+li {
+    text-align: justify;
 }
